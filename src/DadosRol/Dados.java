@@ -111,12 +111,12 @@ public class Dados extends javax.swing.JFrame {
 
     private void jCambiardadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCambiardadoActionPerformed
         // TODO add your handling code here:
-        ImageIcon op0=new ImageIcon("./src/imagenes/elegir.png");
-        ImageIcon op1=new ImageIcon("./src/imagenes/d6.gif");
-        ImageIcon op2=new ImageIcon("./src/imagenes/d8.png");
-        ImageIcon op3=new ImageIcon("./src/imagenes/d10.png");
-        ImageIcon op4=new ImageIcon("./src/imagenes/d12.png");
-        ImageIcon op5=new ImageIcon("./src/imagenes/d20.gif");
+        ImageIcon op0=new ImageIcon("./src/media/elegir.png");
+        ImageIcon op1=new ImageIcon("./src/media/d6.gif");
+        ImageIcon op2=new ImageIcon("./src/media/d8.png");
+        ImageIcon op3=new ImageIcon("./src/media/d10.png");
+        ImageIcon op4=new ImageIcon("./src/media/d12.png");
+        ImageIcon op5=new ImageIcon("./src/media/d20.gif");
 
         if(jCambiardado.getSelectedItem().toString().equals("Elegir")){
             jLimagen.setIcon(op0);
